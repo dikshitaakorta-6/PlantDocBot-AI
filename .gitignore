@@ -1,5 +1,18 @@
-node_modules/
-venv/
+# Python
 __pycache__/
 *.pyc
+
+# Environment files
 .env
+venv/
+
+# Node
+node_modules/
+
+# Data & models
+data/
+ml/saved_models/
+
+# Large ML files
+*.h5
+*.safetensors
